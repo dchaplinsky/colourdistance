@@ -65,7 +65,7 @@ static PyMethodDef ModuleMethods[] = {
      "Measures distance between 2 rgb colours"},
 
     {"closest_by_palette", closest_by_palette, METH_VARARGS,
-      "Measures distance between 2 rgb colours"},
+      "Finds closest colour from a given palette"},
     {NULL, NULL, 0, NULL}        /* Sentinel */
 };
 
